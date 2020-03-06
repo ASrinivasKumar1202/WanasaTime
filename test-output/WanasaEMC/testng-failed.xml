@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [WanasaEMC]">
+  <test thread-count="5" name="LoginPage(failed)">
+    <classes>
+      <class name="com.wanasaemc.adminautomation.EMCLoginPageTest">
+        <methods>
+          <include name="titleCheck"/>
+          <include name="enterLoginDetails"/>
+          <include name="testcasestatus"/>
+        </methods>
+      </class> <!-- com.wanasaemc.adminautomation.EMCLoginPageTest -->
+    </classes>
+  </test> <!-- LoginPage(failed) -->
+</suite> <!-- Failed suite [WanasaEMC] -->
