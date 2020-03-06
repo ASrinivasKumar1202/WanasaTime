@@ -17,7 +17,7 @@ public class EMCLoginPage  extends BaseClass
 	String title;
 	String xx ;
 	
-	//Xpath for Login webPage 
+	//Xpath for Login Page 
 	
 	By emailId = By.id("userEmail");
 	By password = By.id("password");
@@ -33,7 +33,7 @@ public class EMCLoginPage  extends BaseClass
 		dataFromProperiesFile();
 		
 		driver.get(properties.getProperty("url"));
-		System.out.println("@@@@" +driver);
+		//System.out.println("@@@@" +driver);
 		
 		//driver.get("http://staging.emc.wanasatime.com/");
 		
@@ -47,6 +47,7 @@ public class EMCLoginPage  extends BaseClass
 	
 	public void enterLoginDetails() throws InterruptedException
 	{
+		
 		
 		System.out.println("Test 1777");
 		Thread.sleep(5000);
