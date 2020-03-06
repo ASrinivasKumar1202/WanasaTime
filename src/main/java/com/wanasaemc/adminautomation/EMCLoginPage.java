@@ -17,7 +17,7 @@ public class EMCLoginPage  extends BaseClass
 	String title;
 	String xx ;
 	
-	//Xpath for Login Page
+	//Xpath for Login webPage 
 	
 	By emailId = By.id("userEmail");
 	By password = By.id("password");
